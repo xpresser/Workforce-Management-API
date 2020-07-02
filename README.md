@@ -8,8 +8,8 @@ The system orchestrates the workforce availability, tracking time offs, approval
 First, need to pull two images from [docker hub](https://hub.docker.com/) to install project.
 
 ```bash
-docker push xpresser/workforce-api:v0.1
-docker push xpresser/workforce-database:v2.0
+docker pull xpresser/workforce-api:v0.1
+docker pull xpresser/workforce-database:v2.0
 
 ```
 Next, create docker-compose.yml file
